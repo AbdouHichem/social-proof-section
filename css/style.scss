@@ -1,0 +1,18 @@
+@import "config";
+
+body {
+  display: flex;
+  justify-content: flex;
+  align-items: center;
+  flex-direction: column;
+}
+main {
+  width: 85%;
+  min-height: 100vh;
+  max-width: 380px;
+  padding: 3em 1em;
+}
+ul{
+    list-style: none;
+    
+}
