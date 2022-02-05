@@ -69,7 +69,7 @@ main {
 
 ul {
   list-style: none;
-  padding-bottom: .5em;
+  padding-bottom: 0.5em;
 }
 
 ul li {
@@ -80,7 +80,9 @@ ul li {
   margin-top: 5em;
 }
 
-.feedback .colton, .feedback .irene, .feedback .anne {
+.feedback .colton,
+.feedback .irene,
+.feedback .anne {
   background-color: #502050;
   padding: 2em;
   margin: 1em 0;
@@ -116,5 +118,271 @@ ul li {
   color: rgba(238, 104, 164, 0.5);
   font-size: 1em;
   font-weight: normal;
+}
+
+@media only screen and (min-width: 945px) and (max-width: 1439px) {
+  main {
+    width: 90%;
+    max-width: 90%;
+  }
+  .description {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: flex;
+        -ms-flex-pack: flex;
+            justify-content: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .description h1 {
+    padding-left: 0;
+    font-size: 2.5em;
+  }
+  .presentation {
+    text-align: start;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  .rating {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  .rating .reviews,
+  .rating .report,
+  .rating .BestTech {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #f7f2f7;
+    padding: 1em .5em;
+    border-radius: 1em;
+    margin: 1em 0em;
+  }
+  .rating .reviews {
+    margin-right: 4em;
+  }
+  .rating .report {
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+  .rating .BestTech {
+    margin-left: 4em;
+    margin-right: 0em;
+  }
+  .rating img {
+    text-align: right;
+    padding-bottom: 0;
+  }
+  .rating h3 {
+    padding-left: 1em;
+    font-size: 1em;
+  }
+  .rating ul {
+    list-style: none;
+    padding-bottom: 0em;
+  }
+  .feedback {
+    margin-top: 5em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 2em;
+  }
+  .feedback .colton,
+  .feedback .irene,
+  .feedback .anne {
+    background-color: #502050;
+    padding: 1.5em;
+    margin: 0 .5em;
+    border-radius: 1em;
+    color: white;
+  }
+  .feedback .colton {
+    margin-bottom: 4em;
+  }
+  .feedback .irene {
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  .feedback .anne {
+    margin-top: 4em;
+  }
+  .feedback .title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-bottom: 1em;
+  }
+  .feedback .title img {
+    border-radius: 5em;
+    width: 58px;
+    height: 58px;
+    margin-right: 1em;
+  }
+  .feedback .title h2 {
+    font-size: 1em;
+  }
+  .feedback .title h3 {
+    color: rgba(238, 104, 164, 0.5);
+    font-size: .8em;
+    font-weight: normal;
+  }
+  .feedback .title p {
+    font-size: .8em;
+    font-weight: normal;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  main {
+    width: 80%;
+    max-width: 90%;
+  }
+  .description {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: flex;
+        -ms-flex-pack: flex;
+            justify-content: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .description h1 {
+    padding-left: 0;
+    font-size: 2.5em;
+  }
+  .presentation {
+    text-align: start;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  .rating {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  .rating .reviews,
+  .rating .report,
+  .rating .BestTech {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #f7f2f7;
+    padding: 1em 1em;
+    border-radius: 1em;
+    margin: 1em 0em;
+  }
+  .rating .reviews {
+    margin-right: 4em;
+  }
+  .rating .report {
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+  .rating .BestTech {
+    margin-left: 4em;
+    margin-right: 0em;
+  }
+  .rating img {
+    text-align: right;
+    padding-bottom: 0;
+  }
+  .rating h3 {
+    padding-left: 1em;
+    font-size: 1.2em;
+  }
+  .rating ul {
+    list-style: none;
+    padding-bottom: 0em;
+  }
+  .feedback {
+    margin-top: 5em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 2em;
+  }
+  .feedback .colton,
+  .feedback .irene,
+  .feedback .anne {
+    background-color: #502050;
+    padding: 1.5em;
+    margin: 0 .5em;
+    border-radius: 1em;
+    color: white;
+  }
+  .feedback .colton {
+    margin-bottom: 4em;
+  }
+  .feedback .irene {
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  .feedback .anne {
+    margin-top: 4em;
+  }
+  .feedback .title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-bottom: 1em;
+  }
+  .feedback .title img {
+    border-radius: 5em;
+    width: 64px;
+    height: 64px;
+    margin-right: 1em;
+  }
+  .feedback .title h2 {
+    font-size: 1.5em;
+  }
+  .feedback .title h3 {
+    color: rgba(238, 104, 164, 0.5);
+    font-size: 1.2em;
+    font-weight: normal;
+  }
+  .feedback .title p {
+    font-size: 1.3em;
+    font-weight: normal;
+  }
 }
 /*# sourceMappingURL=style.css.map */
