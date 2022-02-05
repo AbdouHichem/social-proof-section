@@ -10,9 +10,74 @@ main {
   width: 85%;
   min-height: 100vh;
   max-width: 380px;
-  padding: 3em 1em;
 }
-ul{
-    list-style: none;
+.presentation {
+  text-align: center;
+  h1 {
+    padding: 02em 2em 1em 2em;
+    color: $VeryDarkMagenta;
+    font-size: 2em;
+    line-height: 1em;
+    font-weight: bold;
+  }
+  h2 {
+    color: $DarkGrayishMagenta;
+    letter-spacing: 0.1em;
+    font-size: 1.2em;
+    padding: 0m 1em;
+  }
+}
+.rating {
+  padding-top: 2em;
+  text-align: center;
+  .reviews,
+  .report,
+  .BestTech {
+    background-color: $LightGrayishMagenta;
+    padding: 1em 1em;
+    border-radius:1em;
+    margin:1em 0em;
+  }
+  h3{
+    color: $VeryDarkMagenta;
+    font-weight: bold;
+  }
+}
+
+ul {
+  list-style: none;
+  padding-bottom: .5em;
+  li {
+    display: inline;
+  }
+}
+.feedback{
+  .colton,.irene,.anne{
+    background-color : $VeryDarkMagenta;
+    padding: 2em;
+    margin: 1em 0;
+    border-radius:1em;
+    color :white;
+  }
+  .title{
+    display:flex;
+    align-items: center;
+    padding-bottom: 1em;
     
+    img{
+      border-radius:5em;
+      align-self: f;
+      width: 58px;
+      height : 58px;
+      margin-right:2em ;
+    }
+    h2{
+      font-size: 1.2em;
+    }
+    h3{
+      color: rgba(238, 104, 164,.5);
+      font-size: 1em;
+      font-weight: normal;
+    }
+  }
 }

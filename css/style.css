@@ -27,10 +27,90 @@ main {
   width: 85%;
   min-height: 100vh;
   max-width: 380px;
-  padding: 3em 1em;
+}
+
+.presentation {
+  text-align: center;
+}
+
+.presentation h1 {
+  padding: 02em 2em 1em 2em;
+  color: #502050;
+  font-size: 2em;
+  line-height: 1em;
+  font-weight: bold;
+}
+
+.presentation h2 {
+  color: #937b92;
+  letter-spacing: 0.1em;
+  font-size: 1.2em;
+  padding: 0m 1em;
+}
+
+.rating {
+  padding-top: 2em;
+  text-align: center;
+}
+
+.rating .reviews,
+.rating .report,
+.rating .BestTech {
+  background-color: #f7f2f7;
+  padding: 1em 1em;
+  border-radius: 1em;
+  margin: 1em 0em;
+}
+
+.rating h3 {
+  color: #502050;
+  font-weight: bold;
 }
 
 ul {
   list-style: none;
+  padding-bottom: .5em;
+}
+
+ul li {
+  display: inline;
+}
+
+.feedback .colton, .feedback .irene, .feedback .anne {
+  background-color: #502050;
+  padding: 2em;
+  margin: 1em 0;
+  border-radius: 1em;
+  color: white;
+}
+
+.feedback .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 1em;
+}
+
+.feedback .title img {
+  border-radius: 5em;
+  -ms-flex-item-align: f;
+      -ms-grid-row-align: f;
+      align-self: f;
+  width: 58px;
+  height: 58px;
+  margin-right: 2em;
+}
+
+.feedback .title h2 {
+  font-size: 1.2em;
+}
+
+.feedback .title h3 {
+  color: rgba(238, 104, 164, 0.5);
+  font-size: 1em;
+  font-weight: normal;
 }
 /*# sourceMappingURL=style.css.map */
